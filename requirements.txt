@@ -1,9 +1,27 @@
-streamlit
-langchain
-faiss-cpu
-sentence-transformers
-transformers
-pdfplumber
-python-dotenv
-torch
-accelerate
+streamlit==1.31.1
+
+# LangChain (Python 3.13 compatible versions)
+langchain==0.1.9
+langchain-core==0.1.28
+langchain-community==0.0.24
+langchain-text-splitters==0.0.1
+
+# Transformers & embeddings
+transformers==4.37.2
+sentence-transformers==2.3.1
+
+# FAISS (Python 3.13 compatible)
+faiss-cpu==1.13.0
+
+# PyTorch (Python 3.13 compatible)
+torch==2.9.1
+accelerate==0.26.1
+
+# Utilities
+tqdm
+numpy
+pandas
+
+# PDF Processing
+PyPDF2==3.0.1
+pypdf==4.0.2
